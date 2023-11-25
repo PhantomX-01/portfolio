@@ -109,6 +109,16 @@
     }
 }
 
+@media (max-width: 540px) {
+    
+    .about .about-content .personal-info .info-item {
+        flex: 0 0 100%;
+        max-width: 100%;
+        /* display: flex;
+        flex-wrap: wrap; */
+    }
+}
+
 @media (max-width: 450px) {
 
     .about .about-content .personal-info .info-item {
