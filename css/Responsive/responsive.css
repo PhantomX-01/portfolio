@@ -1,4 +1,4 @@
-/* @media (max-width: 1400px) {
+@media (max-width: 1400px) {
     .home .home-info {
         flex: 0 0 100%;
         max-width: 100%;
@@ -7,7 +7,7 @@
     .home .home-img {
         display: none;
     }
-} */
+}
 
 @media (max-width: 1199px) {
 
@@ -64,14 +64,18 @@
 
     .service .service-item,
     .portfolio .portfolio-item,
-    .contact .contact-info-item,
-    .team .team-info-item {
+    .contact .contact-info-item {
         flex: 0 0 50%;
         max-width: 50%;
     }
+
+    .team .team-item {
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 850px) {
 
     .about .about-content .education,
     .about .about-content .experience,
@@ -136,5 +140,6 @@
     .footer {
         flex: 0 0 100%;
         max-width: 100%;
+        font-size: 20px;
     }
 }
