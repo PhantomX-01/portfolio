@@ -1,14 +1,14 @@
-/* @media (max-width: 1400px) {
+@media (max-width: 1080px) {
 
     .home .home-info {
         flex: 0 0 100%;
         max-width: 100%;
     }
 
-    .home .home-img {
+    /* .home .home-img {
         display: none;
-    }
-} */
+    } */
+}
 
 @media (max-width: 1199px) {
 
