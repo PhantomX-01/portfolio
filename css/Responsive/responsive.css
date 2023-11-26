@@ -1,4 +1,5 @@
-@media (max-width: 1400px) {
+/* @media (max-width: 1400px) {
+
     .home .home-info {
         flex: 0 0 100%;
         max-width: 100%;
@@ -7,7 +8,7 @@
     .home .home-img {
         display: none;
     }
-}
+} */
 
 @media (max-width: 1199px) {
 
@@ -123,7 +124,7 @@
     }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 480px) {
 
     .about .about-content .personal-info .info-item {
         flex: 0 0 100%;
