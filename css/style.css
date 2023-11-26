@@ -355,30 +355,30 @@ h3.my-profession {
 .home .home-img::before {
     content: '';
     position: absolute;
-    height: 80px;
-    width: 80px;
+    height: 60px;
+    width: 60px;
     border-left: 10px solid var(--skin-color);
     border-top: 10px solid var(--skin-color);
-    left: 10px;
+    left: 40px;
     top: -20px;
 }
 
 .home .home-img::after {
     content: '';
     position: absolute;
-    height: 80px;
-    width: 80px;
+    height: 60px;
+    width: 60px;
     border-bottom: 10px solid var(--skin-color);
     border-right: 10px solid var(--skin-color);
-    right: 10px;
+    right: 40px;
     bottom: -20px;
 }
 
 .home .home-img img {
     margin: auto;
     border-radius: 5px;
-    height: 400px;
-    width: 380px;
+    height: 350px;
+    width: 330px;
 }
 
 /* About */
